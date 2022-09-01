@@ -6,6 +6,4 @@
 # Author : Anto 
 #***********************************************************************************************************
 
-list = ['Blade']
-
-#'Alien','Avatar','Bad-Boys','Black-Panther',
+movie_name = ['Blade','Alien']
