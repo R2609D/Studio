@@ -15,5 +15,11 @@ for i in range(len(movie_name)):
     soup = BeautifulSoup(api_request, 'lxml')
     script = soup.find('pre')
     output = script.text
+
+
     with open('scripts.txt', 'a') as f:
         f.write(output)
+
+#TODO: Convert this into a functions with try & expect error catching
+#TODO: Add a way selecting different genres for the script.txt dataset
+#TODO: Fix the path to where script.txt file is created 
