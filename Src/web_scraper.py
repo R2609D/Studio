@@ -25,14 +25,14 @@ def get_script():
             soup = BeautifulSoup(api_request, 'lxml')
             script = soup.find('pre')
             output = script.text
-            return output
+        return output
     except Exception as e: 
         raise Exception(str(e))
 
 #***********************************************************************************************************
 #   
 #   This function appends all the scripts and store it in the scripts.txt file 
-#TODO: Fix the path to where script.txt file is created 
+#
 #***********************************************************************************************************
 
 
