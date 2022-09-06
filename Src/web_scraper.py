@@ -38,7 +38,7 @@ def get_script():
 
 def store_scripts(file):
     try:
-        with open('scripts.txt', 'a') as f:
+        with open('Src/scripts.txt', 'a') as f:
             f.write(file)          
     except Exception as e: 
         raise Exception(str(e))
